@@ -11,6 +11,7 @@ WORKDIR /var/www/app
 COPY package.json /var/www/app
 
 # Bağımlılıkları kur
+RUN npm audit fix
 RUN npm install
 
 # Tüm proje dosyalarını docker image'ına kopyala

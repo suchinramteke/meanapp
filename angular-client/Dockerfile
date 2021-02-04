@@ -1,5 +1,5 @@
 # Dockerhub üzerinden resmi Node 8 image'ını temel alarak bir image oluştur
-FROM node:8
+FROM node:10
 
 # Uygulamamızın bulunacağı klasörü oluştur
 RUN mkdir -p /var/www/app
